@@ -1,0 +1,23 @@
+{
+	"sourceFiles": [
+		{
+			"source": "./build/merge.js",
+			"output": {
+				"path": "./build/merged-files",
+				"name": "StoryTeller.js"
+			}
+		},
+		{
+			"source": "./build/merge.min.js",
+			"output": {
+				"path": "./build/merged-files",
+				"name": "StoryTeller.min.js"
+			},
+			"config": {
+				"uglify": true
+			}
+		}
+	],
+	"updateOnLaunch": false,
+	"lastUpdateCheck": null
+}

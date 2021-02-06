@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "build/multi-files",
+        "target": "es2015",
+        "module": "commonjs",
+        "sourceMap": false
+    },
+    "include": ["src/"]
+}
